@@ -7,6 +7,12 @@
 
 > flask run
 
+if it didn't work  , instead use 
+> $env:FLASK_APP = "flaskr"
+
+> $env:FLASK_ENV = "development"
+
+
 # Example Flask Package
 
 This is a simple example flask package. You can use
